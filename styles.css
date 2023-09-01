@@ -1,0 +1,200 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #d90404;
+  background: linear-gradient(279deg, #d90404 0%, #8c0303 80%);
+  background: -webkit-linear-gradient(279deg, #d90404 0%, #8c0303 80%);
+  background: -moz-linear-gradient(279deg, #d90404 0%, #8c0303 80%);
+  /* text-align: justify; para ctexto justificado y alineado*/
+  color: #ffffff;
+}
+
+.row {
+  align-items: center;
+  justify-content: center;
+  padding: 0%;
+  margin-bottom: 0;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.col {
+  align-self: center;
+  justify-content: center;
+}
+
+.spotify {
+  text-align: center;
+  padding: 5px;
+}
+
+.centrado-multimedia {
+  max-width: 100%; /* La imagen no será más ancha que su contenedor */
+  /*height: auto; La altura se ajustará automáticamente para mantener la proporción */
+  display: block; /* Evita espacios adicionales debajo de la imagen */
+}
+
+button {
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #ffffff;
+  z-index: 1;
+  background: #000;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+.boton-estilo {
+  text-decoration: none; /* Elimina subrayado */
+  color: inherit; /* Hereda el color del elemento padre */
+}
+
+/*
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #ffffff;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 255, 255, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(255, 255, 255, 0.27);
+  transition: all 250ms
+}
+*/
+button:hover {
+  color: gray;
+}
+
+button:hover::before {
+  width: 100%;
+}
+
+h1 {
+  padding-top: 80px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+h3 {
+  text-align: center;
+}
+
+#navbarNav {
+  background-color: #000;
+}
+
+#navbar {
+  height: 13%;
+  background-color: black;
+}
+
+#navbar-letra {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  padding: 0;
+}
+
+#inicio {
+  color: #ffffff;
+  padding: 2%;
+  margin: 8px;
+}
+
+.navbar-brand {
+  font-size: 180%;
+  padding: 10px 30px;
+}
+
+.nav-item {
+  width: 115px;
+  text-align: center;
+  margin: 2%;
+}
+
+.nav-item:hover {
+  background-color: #d90404;
+  background: linear-gradient(279deg, #d90404 0%, #8c0303 80%);
+  background: -webkit-linear-gradient(279deg, #d90404 0%, #8c0303 80%);
+  background: -moz-linear-gradient(279deg, #d90404 0%, #8c0303 80%); /* Cambia el color de fondo al pasar el mouse por encima */
+}
+
+p {
+  font-size: x-large;
+}
+
+.cursiva {
+  font-style: italic; /* Aplicar cursiva */
+}
+
+#texto-serie {
+  font-size: x-large;
+}
+
+.table {
+  border-collapse: collapse; /* Combina los bordes de las celdas */
+}
+
+.table th,
+.table td {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+}
+
+.table thead tr {
+  border-bottom: none; /* Elimina el borde inferior de las filas del encabezado */
+}
+
+.table tbody tr:last-child {
+  border-bottom: none; /* Elimina el borde inferior de la última fila del cuerpo */
+}
+
+td {
+  font-weight: bold;
+}
+
+/*FOOTER DE TODA LA PAGINA*/
+footer {
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 2%;
+}
+
+#copyright {
+  font-size: medium;
+  color: grey;
+}
+
+.ul-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.li-footer {
+  display: flex;
+  padding: 2%;
+}
+
+/*# sourceMappingURL=styles.css.map */
